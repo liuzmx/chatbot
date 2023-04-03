@@ -1,0 +1,26 @@
+{
+  "private": true,
+  "author": "Zhiming Liu <hitliuzm@gmail.com>",
+  "scripts": {
+    "dev": "umi dev",
+    "build": "umi build",
+    "postinstall": "umi setup",
+    "setup": "umi setup",
+    "start": "npm run dev"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@mui/icons-material": "^5.11.11",
+    "@mui/material": "^5.11.15",
+    "@umijs/max": "^4.0.64",
+    "ahooks": "^3.7.6",
+    "umi": "^4.0.64",
+    "umi-request": "^1.4.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "typescript": "^5.0.0"
+  }
+}
